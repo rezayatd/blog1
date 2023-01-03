@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HomeHeaderComponent } from './header.component';
+import { FaqAccordion1Component } from './faq-accordion1.component';
 
-describe('HeaderComponent', () => {
-  let component: HomeHeaderComponent;
-  let fixture: ComponentFixture<HomeHeaderComponent>;
+describe('FaqAccordion1Component', () => {
+  let component: FaqAccordion1Component;
+  let fixture: ComponentFixture<FaqAccordion1Component>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ HomeHeaderComponent ]
+      declarations: [ FaqAccordion1Component ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(HomeHeaderComponent);
+    fixture = TestBed.createComponent(FaqAccordion1Component);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

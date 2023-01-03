@@ -11,5 +11,11 @@ export class NavbarComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  
+  public menuItem ="" 
 
+  public getMenuItem (menuItem:string ){
+   this.menuItem = menuItem;
+   
+  }
 }

@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HomeHeaderComponent } from './header.component';
+import { PricingCard2Component } from './pricing-card2.component';
 
-describe('HeaderComponent', () => {
-  let component: HomeHeaderComponent;
-  let fixture: ComponentFixture<HomeHeaderComponent>;
+describe('PricingCard2Component', () => {
+  let component: PricingCard2Component;
+  let fixture: ComponentFixture<PricingCard2Component>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ HomeHeaderComponent ]
+      declarations: [ PricingCard2Component ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(HomeHeaderComponent);
+    fixture = TestBed.createComponent(PricingCard2Component);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
